@@ -1,0 +1,55 @@
+
+.input-button {
+    @include tynybtn();
+    width:90%;
+    height: 60px;
+
+}
+@mixin fieldinput(){
+    margin-top: 23px;
+    font-size: 16px;
+    padding-left: 22px;
+    padding-right: 10px;
+    height: 60px;
+    border-color: none;
+    width: 90%;
+    font-family: $myavenir-regfont;
+}
+.input-field {
+   @include fieldinput();
+}
+
+.impact-container {
+    margin-top: 150px;
+    padding-left: $marginall;
+    padding-right: $marginall;
+    background-color: #f9efc7;
+    padding-top: 78px;
+    padding-bottom: 150px;
+}
+.impactside-head {
+    margin-top: 50px;
+    font-family: $extraboldfont;
+}
+
+.impact-head {
+    text-align: center;
+    font-family: $extraboldfont;
+    font-size: 35px;
+}
+
+.impactsub-head {
+    text-align: center;
+    font-family: $myavenir-regfont;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.impact-content {
+    padding-right: 10%;
+}
+
+
+
+
+

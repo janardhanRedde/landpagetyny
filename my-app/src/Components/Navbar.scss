@@ -1,0 +1,97 @@
+@mixin tynybtn (){
+    background-color: $mycolor ;
+    font-family: $avenirdemibold;
+    color: $mybuttonfontcolor;
+    font-size: $mybuttonfontsize;
+    margin-top: 15px;
+    padding-left: 18px;
+    padding-right: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: transparent;
+    margin-right: 14px;
+}
+
+@mixin imagepos(){
+  
+    height: auto;
+    margin-top: 16px;
+   
+}
+
+$mycolor: #169E7D;
+$mythirdfontsize: 16px;
+$mybuttonfontsize: 18px;
+$myprimaryfontsize: 43px;
+$mysecondaryfontsize: 35px;
+$mybuttonfontcolor: white;
+$myavenir-regfont: 'avenir-reg';
+$avenirdemibold: 'avenir-demibold';
+$gilroy-bold: 'Gilroy-Bold';
+$extraboldfont: 'Gilroy-ExtraBold';
+$InterRegular: 'Inter-Regular';
+$InterExtraBold: 'Inter-ExtraBold';
+$marginall: 8%;
+
+.firstpage {
+    height: 100vh;
+    background-image: url(../Assets/bg.png);
+    background-size: cover;
+   
+    #navbarNav {
+        justify-content: right;
+        background-color : white;
+        margin-right: $marginall;
+        top: 0;
+        
+        
+    }
+    .container-fluid {
+        background-color: white;
+        padding-bottom: 10px;
+        top: 0;
+        position: fixed;
+    }
+}
+
+
+.image-wrapper {
+    @include imagepos();
+    margin-left: $marginall;
+    
+}
+
+.image-wrappe {
+    @include imagepos();
+    cursor: pointer;
+    margin-right: 16px;
+ 
+}
+
+.Remote {
+    justify-content: center;
+    padding-top: 18vh;
+    margin-left: 12%;
+    .gilroyextrabold {
+        width: 80%;
+        font-family: $extraboldfont ;
+    } 
+    .avenireg {
+        width: 50%;
+        margin-top: 20px;
+        font-family: $myavenir-regfont;
+    }
+}
+
+
+.k8s-btn {
+    @include tynybtn();
+
+}
+.k8-btn { 
+    @include tynybtn();
+}
+.k8-btn:hover {
+    margin-top: 10px;
+    transition: 0.4s;
+}

@@ -1,0 +1,78 @@
+.firstpage {
+  height: 100vh;
+  background-image: url(../Assets/bg.png);
+  background-size: cover;
+}
+.firstpage #navbarNav {
+  justify-content: right;
+  background-color: white;
+  margin-right: 8%;
+  top: 0;
+}
+.firstpage .container-fluid {
+  background-color: white;
+  padding-bottom: 10px;
+  top: 0;
+  position: fixed;
+}
+
+.image-wrapper {
+  height: auto;
+  margin-top: 16px;
+  margin-left: 8%;
+}
+
+.image-wrappe {
+  height: auto;
+  margin-top: 16px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.Remote {
+  justify-content: center;
+  padding-top: 18vh;
+  margin-left: 12%;
+}
+.Remote .gilroyextrabold {
+  width: 80%;
+  font-family: "Gilroy-ExtraBold";
+}
+.Remote .avenireg {
+  width: 50%;
+  margin-top: 20px;
+  font-family: "avenir-reg";
+}
+
+.k8s-btn {
+  background-color: #169E7D;
+  font-family: "avenir-demibold";
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  padding-left: 18px;
+  padding-right: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-color: transparent;
+  margin-right: 14px;
+}
+
+.k8-btn {
+  background-color: #169E7D;
+  font-family: "avenir-demibold";
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  padding-left: 18px;
+  padding-right: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-color: transparent;
+  margin-right: 14px;
+}
+
+.k8-btn:hover {
+  margin-top: 10px;
+  transition: 0.4s;
+}/*# sourceMappingURL=Navbar.css.map */

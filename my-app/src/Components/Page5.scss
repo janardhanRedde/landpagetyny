@@ -1,0 +1,35 @@
+@mixin greentext(){
+    color: $mycolor;
+    font-family: $avenirdemibold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.special-text{
+    @include greentext();
+    float:right;
+}
+
+.special-text1{
+   @include greentext();
+}
+
+
+.thinking{
+    margin-top: 150px;
+    margin-left: $marginall;
+    margin-right: $marginall;   
+}
+
+.card-titl{
+    padding-top: 26px;
+    font-family: $extraboldfont;
+    font-size: 22px;
+    height: 100%;
+    width: auto;
+   margin-bottom: 20px;
+    
+}
+.thinking-card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

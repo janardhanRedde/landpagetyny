@@ -1,0 +1,126 @@
+@mixin tynydes() {
+    margin-top: 50px;
+    height: auto;
+}
+
+@mixin btnlogo() {
+    height: 4px;
+    width: 35px;
+    border-color: transparent;
+    margin-top: 20px;
+    
+}
+label{
+    position: relative;
+    float: right;
+}
+.logo2-btn {
+    @include btnlogo();
+    background-color: $mycolor;
+    
+   
+}
+
+.logo-btn {
+    background-color: #D9D9D9;
+    @include btnlogo();
+    margin-right: 10px;
+    margin-left: 16px;
+   
+   
+
+}
+.second {
+    background-color: #F8F8F8;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: start;
+
+
+
+}
+
+.about-container {
+    margin-left: $marginall;
+    margin-right: $marginall;
+}
+
+.video-ref {
+    margin-top: 50px;
+    height: auto;
+
+
+    .king {
+        width: 100%;
+    }
+
+}
+
+.hours-head {
+    font-family: $gilroy-bold;
+    width: auto;
+}
+
+.hours-text {
+    font-family: $myavenir-regfont;
+    width: auto;
+}
+
+.cloud-head {
+    font-size: 24px;
+    font-family: $extraboldfont;
+    width: 80%;
+}
+
+
+
+
+.about-tyny {
+    @include tynydes();
+    background-color: $mycolor;
+    padding: 15%;
+    color: $mybuttonfontcolor;
+
+
+}
+
+
+.about-cloud {
+    @include tynydes();
+    box-shadow: 0px 0px 30px #79777729;
+    padding-top: 45px;
+
+    .master-container {
+        margin-left: 20px;
+        margin-right: 17px
+    }
+
+}
+
+
+
+
+
+.container-logo {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+   
+
+    .image-logo {
+        margin-top: 15px;
+        width: 90%;
+        height: 90%;
+        padding-top: 10px;
+
+    }
+
+}
+
+.bottom-content {
+    background-color: #F9EFC7;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    padding-top: 17px;
+}

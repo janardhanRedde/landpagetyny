@@ -1,0 +1,41 @@
+.journey {
+    background-color: #F9EFC7;
+    padding-top: 5%;
+    padding-left: $marginall;
+    padding-right: $marginall;
+    padding-bottom: 5%;
+
+}
+.content {
+    margin-top: 79px;
+
+}
+.journey1-head{
+    font-family: $extraboldfont;
+    font-size: 35px;
+}
+.journey2-head{
+    font-family: $InterExtraBold;
+    font-size: 20px;
+    width: 80%;
+    padding-top: 15px;
+}
+.des-journey {
+    margin-left: 36px;
+     font-family:$myavenir-regfont ;
+ 
+}
+
+.mid-des {
+    margin-top: 45px;
+}
+
+.form-select {
+    @include fieldinput();
+}
+
+.journey1 {
+    margin-right: 5%;
+}
+
+

@@ -1,0 +1,44 @@
+
+.third{
+    padding-top: 130px;
+    margin-left: $marginall;
+    margin-right: $marginall;
+    .head-what{
+        color: $mycolor;
+        text-align: center;
+        font-family: $extraboldfont;
+    }
+    .sub-head{
+        text-align: center;
+        margin-top: 18px;
+        font-family: $extraboldfont;
+        
+    }
+    .third-para{
+        text-align: center;
+       margin-left: 12%;
+       margin-right: 12%;
+       margin-top: 18px;
+       font-family: $myavenir-regfont;
+      
+        
+    }
+}
+
+
+.card-title{
+    font-family: $extraboldfont;
+    font-size: $mysecondaryfontsize;
+   
+    margin-bottom: 20px;
+    .second-title{
+        font-size: 20px;
+    }
+}
+
+.card-text{
+    font-family: $myavenir-regfont;
+    margin-top: 15px;
+   
+}
+

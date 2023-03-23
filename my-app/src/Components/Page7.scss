@@ -1,0 +1,64 @@
+.contact{
+    background-color: black;
+    color: white;
+    padding-left: $marginall;
+    padding-right: $marginall;
+    padding-top: 5%;
+    padding-bottom: 4%;
+   
+}
+
+.input-field2{
+    height: 60px;
+    font-size: 16px;
+    padding-left: 22px;
+    width: auto;
+    
+   
+   
+}
+.subscribe{
+   @include tynybtn();
+   position: relative;
+    height: 60px;
+    cursor: pointer;
+  
+  
+}
+.container{
+    padding-top: 80px;
+    text-align: start;
+    
+}
+.info{
+    color: #707070;
+    font-family: $myavenir-regfont;
+    font-size: 19px;
+}
+.social{
+    padding-top: 45px;
+}
+.eng-head{
+    font-size: 22px;
+    font-family: $gilroy-bold;
+}
+.eng-mainhead{
+    font-size: 26px;
+    font-family: $extraboldfont;
+}
+.btm-logo{
+    padding-top: 60px;
+}
+.inc{
+   padding-top: 60px;
+    float: right;
+    color: #707070;
+    font-family: $myavenir-regfont;
+    font-size: 14px;
+    
+}
+
+label{
+    position: relative;
+    float: right;
+}
