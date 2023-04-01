@@ -10,11 +10,14 @@
     padding-bottom: 12px;
     border-color: transparent;
     margin-right: 14px;
+    transition: all 0.4s;
+    
 }
 
 @mixin imagepos(){
   
-    height: auto;
+    height:auto;
+    width: auto;
     margin-top: 16px;
    
 }
@@ -43,6 +46,7 @@ $marginall: 8%;
         background-color : white;
         margin-right: $marginall;
         top: 0;
+        // width: 100%;
         
         
     }
@@ -60,7 +64,11 @@ $marginall: 8%;
     margin-left: $marginall;
     
 }
-
+@media screen and (max-width: 400px) {
+    .image-wrapper,.image-wrappe {
+      width:100%;
+    }
+  }
 .image-wrappe {
     @include imagepos();
     cursor: pointer;
@@ -73,17 +81,36 @@ $marginall: 8%;
     padding-top: 18vh;
     margin-left: 12%;
     .gilroyextrabold {
-        width: 80%;
+        
         font-family: $extraboldfont ;
     } 
     .avenireg {
-        width: 50%;
+       
         margin-top: 20px;
         font-family: $myavenir-regfont;
     }
 }
-
-
+@media screen and (max-width: 900px)
+    { .Remote{
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }}
+    
+@media screen and (min-width:900px){
+    .Remote{
+        text-align: left;
+        align-items: left;
+        justify-content: left;
+        margin-left: 10%;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .k8s-btn {
+      display: none;
+    }
+  }
 .k8s-btn {
     @include tynybtn();
 

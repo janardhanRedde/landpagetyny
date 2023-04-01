@@ -18,12 +18,19 @@
 
 .image-wrapper {
   height: auto;
+  width: auto;
   margin-top: 16px;
   margin-left: 8%;
 }
 
+@media screen and (max-width: 400px) {
+  .image-wrapper, .image-wrappe {
+    width: 100%;
+  }
+}
 .image-wrappe {
   height: auto;
+  width: auto;
   margin-top: 16px;
   cursor: pointer;
   margin-right: 16px;
@@ -35,15 +42,34 @@
   margin-left: 12%;
 }
 .Remote .gilroyextrabold {
-  width: 80%;
   font-family: "Gilroy-ExtraBold";
 }
 .Remote .avenireg {
-  width: 50%;
   margin-top: 20px;
   font-family: "avenir-reg";
 }
 
+@media screen and (max-width: 900px) {
+  .Remote {
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .Remote {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10%;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .k8s-btn {
+    display: none;
+  }
+}
 .k8s-btn {
   background-color: #169E7D;
   font-family: "avenir-demibold";
@@ -56,6 +82,7 @@
   padding-bottom: 12px;
   border-color: transparent;
   margin-right: 14px;
+  transition: all 0.4s;
 }
 
 .k8-btn {
@@ -70,6 +97,7 @@
   padding-bottom: 12px;
   border-color: transparent;
   margin-right: 14px;
+  transition: all 0.4s;
 }
 
 .k8-btn:hover {
@@ -158,12 +186,17 @@ label {
 .container-logo {
   margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
   padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
 }
 .container-logo .image-logo {
   margin-top: 15px;
-  width: 90%;
-  height: 90%;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
   padding-top: 10px;
 }
 
@@ -224,6 +257,7 @@ label {
   padding-bottom: 12px;
   border-color: transparent;
   margin-right: 14px;
+  transition: all 0.4s;
   width: 90%;
   height: 60px;
 }
@@ -381,6 +415,7 @@ label {
   padding-bottom: 12px;
   border-color: transparent;
   margin-right: 14px;
+  transition: all 0.4s;
   position: relative;
   height: 60px;
   cursor: pointer;

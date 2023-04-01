@@ -27,7 +27,7 @@ const Page2 = () => {
         <div >
             <div className='second' data-aos ='fade-up'>
                 <div class="about-container">
-                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                         <div class="col ">
                             <h1 className='hours-head'>15K+ Hours</h1>
                             <p className='hours-text'>Kubernetes Expertise</p></div>
@@ -65,7 +65,7 @@ const Page2 = () => {
                                     
                                    
                                 </div>
-                                <div class="container-logo">
+                                <div class="container-logo"> 
                                     <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
                                         <div class="col">
                                             <img src={kuber} class="image-logo" alt="kuber.png" />
